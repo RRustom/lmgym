@@ -15,13 +15,15 @@ pip install -r requirements.txt
 
 3. Then export project to python path:
 ```
-export PYTHONPATH=$PATH_TO_REPO
+export PYTHONPATH=$PATH_TO_REPO (ex: /home/ubuntu/lmgym)
 ```
-4. `$ cd clm_modles`
-5. `$ pip install -r requirements.txt`
-6. `$ huggingface-cli login`
-7. `$ chmod +x /home/ubuntu/lmgym/clm_models/experiments/hh/hh_demo.sh`
-8. `$ experiments/hh/hh_demo.sh`
+
+4. `$ touch .env` and copy the variables from `.env.template` along with the correct values
+5. `$ cd clm_models`
+6. `$ pip install -r requirements.txt`
+7. `$ huggingface-cli login`
+8. `$ chmod +x /home/ubuntu/lmgym/clm_models/experiments/hh/hh_demo.sh`
+9. `$ experiments/hh/hh_demo.sh`
 
 
 # Language Model Gym
