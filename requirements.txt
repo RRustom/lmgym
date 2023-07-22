@@ -1,5 +1,5 @@
 datasets==2.7.1
-torch==1.13.0
+torch==1.13.0+cu118
 transformers==4.28.1
 wandb==0.13.5
 numpy==1.22.4
