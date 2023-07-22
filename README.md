@@ -1,5 +1,29 @@
 [![lmgym](https://github.com/chai-nexus/lmgym/actions/workflows/lmgym.yaml/badge.svg)](https://github.com/chai-nexus/lmgym/actions/workflows/lmgym.yaml)
 
+
+# Running training experiments:
+1. Create a Python 3 virtual environment and activate:
+```
+virtualenv -p python3 env
+source ./env/bin/activate
+```
+
+2. Install requirements by running:
+```
+pip install -r requirements.txt
+```
+
+3. Then export project to python path:
+```
+export PYTHONPATH=$PATH_TO_REPO
+```
+4. `$ cd clm_modles`
+5. `$ pip install -r requirements.txt`
+6. `$ huggingface-cli login`
+7. `$ chmod +x /home/ubuntu/lmgym/clm_models/experiments/hh/hh_demo.sh`
+8. `$ experiments/hh/hh_demo.sh`
+
+
 # Language Model Gym
 This repository records [Chai Research](https://www.chai-research.com)'s
 library for training language models which are then deployed to the
